@@ -56,7 +56,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="pressedStartToNext" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsH-Zy-sBZ"/>
+                                    <action selector="pressedStartToNext" destination="BYZ-38-t0r" eventType="touchUpInside" id="0UM-OY-6ep"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,15 +78,15 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="greenColorView" destination="oja-cZ-MbD" id="H5u-2r-JFh"/>
-                        <outlet property="pressStartButton" destination="EhH-fn-Hva" id="fJE-Dv-5in"/>
-                        <outlet property="redColorView" destination="be9-l1-Ibc" id="vEF-ES-Ed3"/>
-                        <outlet property="yellowColorView" destination="B9k-qX-yJE" id="RqX-Jn-1dR"/>
+                        <outlet property="greenColorView" destination="oja-cZ-MbD" id="4I9-Qq-lIX"/>
+                        <outlet property="redColorView" destination="be9-l1-Ibc" id="zKX-qx-KLr"/>
+                        <outlet property="startButton" destination="EhH-fn-Hva" id="9ND-ru-ehn"/>
+                        <outlet property="yellowColorView" destination="B9k-qX-yJE" id="cxA-3W-upY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-54" y="80"/>
+            <point key="canvasLocation" x="20" y="66"/>
         </scene>
     </scenes>
     <resources>
