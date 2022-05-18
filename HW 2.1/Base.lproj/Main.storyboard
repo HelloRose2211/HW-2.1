@@ -55,6 +55,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressedStartToNext" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsH-Zy-sBZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fzG-Ds-g4R"/>
@@ -74,10 +77,16 @@
                             <constraint firstItem="oja-cZ-MbD" firstAttribute="top" secondItem="B9k-qX-yJE" secondAttribute="bottom" constant="45" id="wtp-0O-2DL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenColorView" destination="oja-cZ-MbD" id="H5u-2r-JFh"/>
+                        <outlet property="pressStartButton" destination="EhH-fn-Hva" id="fJE-Dv-5in"/>
+                        <outlet property="redColorView" destination="be9-l1-Ibc" id="vEF-ES-Ed3"/>
+                        <outlet property="yellowColorView" destination="B9k-qX-yJE" id="RqX-Jn-1dR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="66"/>
+            <point key="canvasLocation" x="-54" y="80"/>
         </scene>
     </scenes>
     <resources>
