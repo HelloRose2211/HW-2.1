@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var redColorView: UIView!
+    @IBOutlet weak var yellowColorView: UIView!
+    @IBOutlet weak var greenColorView: UIView!
+    
+    @IBOutlet weak var pressStartButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    @IBAction func pressedStartToNext() {
+        
+    }
 }
 
