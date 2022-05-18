@@ -26,9 +26,7 @@ class ViewController: UIViewController {
         yellowColorView.clipsToBounds = true
         yellowColorView.clipsToBounds = true
         
-        /* view.layer.cornerRadius = view.layer.bounds.width / 2
-         view.clipsToBounds = true
-         */
+        
     }
     
     @IBAction func pressedStartToNext() {
