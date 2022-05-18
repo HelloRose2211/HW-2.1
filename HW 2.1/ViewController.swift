@@ -19,10 +19,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         startButton.layer.cornerRadius = 10
-        redColorView.layer.cornerRadius = redColorView.frame.width / 2
-        yellowColorView.layer.cornerRadius = yellowColorView.frame.width / 2
-        greenColorView.layer.cornerRadius = greenColorView.frame.width / 2
+        redColorView.layer.cornerRadius = redColorView.layer.bounds.width / 2
+        yellowColorView.layer.cornerRadius = yellowColorView.layer.bounds.width / 2
+        greenColorView.layer.cornerRadius = greenColorView.layer.bounds.width / 2
+        redColorView.clipsToBounds = true
+        yellowColorView.clipsToBounds = true
+        yellowColorView.clipsToBounds = true
         
+        /* view.layer.cornerRadius = view.layer.bounds.width / 2
+         view.clipsToBounds = true
+         */
     }
     
     @IBAction func pressedStartToNext() {
